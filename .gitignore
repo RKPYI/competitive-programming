@@ -1,0 +1,37 @@
+# Compiled executables (Linux binaries without extensions)
+# Ignores any file without a dot in its name, then whitelists common extensionless files
+*
+!*.*
+!*/
+!Makefile
+!LICENSE
+!Dockerfile
+
+# Common C++ compiled extensions & debug symbols
+*.out
+*.exe
+*.o
+*.obj
+*.bin
+*.a
+*.so
+*.dll
+*.dylib
+*.gch
+*.pch
+*.dSYM/
+
+# Sample input/output files used for local testing
+in*.txt
+out*.txt
+input*.txt
+output*.txt
+*.in
+*.ans
+
+# Editor & OS clutter
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Stores
