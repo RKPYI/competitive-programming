@@ -1,4 +1,5 @@
 // Problemset Link: https://tlx.toki.id/courses/competitive-1/chapters/03/problems/A
+// AI used to find bug when curr_sel == selisih
 
 #include <bits/stdc++.h>
 using namespace std;
